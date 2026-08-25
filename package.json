@@ -1,0 +1,25 @@
+{
+  "name": "smart_closet",
+  "version": "1.0.0",
+  "main": "index.js",
+  "private": true,
+  "packageManager": "npm@10.8.2",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "turbo build",
+    "dev": "turbo dev",
+    "dev:web": "turbo dev --filter=admin-web",
+    "dev:mobile": "turbo dev --filter=mobile-app",
+    "dev:backend": "turbo dev --filter=backend"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "turbo": "^2.10.11"
+  }
+}

@@ -1,0 +1,19 @@
+# Node dependencies (KHÔNG đẩy node_modules lên Git)
+node_modules/
+**/node_modules/
+
+# Build & Cache outputs
+.next/
+.expo/
+dist/
+build/
+.turbo/
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# System files
+.DS_Store
+Thumbs.db
