@@ -220,3 +220,7 @@ Ví dụ: [Trang chủ](https://google.com)
 Dấu ! ở đầu giúp phân biệt giữa Chèn ảnh và Chèn link.
 
 ### npm install @imgly/background-removal-node -w apps/backend
+
+npx turbo dev --filter=mobile-app -- --reset-cache
+Nếu muốn quét QR từ xa (khi máy tính và điện thoại không dùng chung mạng Wi-Fi), hãy chạy:
+npx turbo dev --filter=mobile-app -- --tunnel
