@@ -19,8 +19,12 @@
 - [x] Tách thư mục `packages/` chứa `types`, `api-client`, `ui`, `utils`.
 - [x] Cấu hình `package.json` gốc và `turbo.json`.
 
-### 🗓 YYYY-MM-DD
-- [ ] Tính năng tiếp theo...
+### 🗓 2026-09-02
+- [x] Xây dựng CRUD API quản lý danh mục và tủ đồ (`items`).
+- [x] Tích hợp middleware upload file ảnh với Multer.
 
-
-
+### 🗓 2026-09-06
+- [x] Hoàn thiện CRUD API quản lý Ma-nơ-canh (`mannequins`).
+- [x] Tích hợp AI tách nền tự động trên Node.js server bằng `@imgly/background-removal-node` và `sharp`.
+- [x] Tự động chuẩn hóa mọi định dạng ảnh (JPG, WEBP, PNG) thành PNG trong suốt và upload lên Cloudinary.
+- [x] Refactor lại luồng xử lý và tối ưu hóa hiệu năng API `items`.
