@@ -4,3 +4,9 @@ export interface CalendarEvent {
   outfitId: number;
   note?: string;
 }
+
+export interface CalendarOutfit extends CalendarEvent {
+  outfitName: string;
+  image: string;
+  occasion?: string;
+}
