@@ -65,6 +65,10 @@ Khi đó chỉ cần gõ: npm run dev:web hoặc npm run dev:mobile.
 
 11. Alt + Click chuột: Nhấp chuột vào các vị trí khác nhau để đặt nhiều con trỏ cùng lúc => gõ hoặc xóa đồng thời.Ctrl + Alt + Up / Down: Tạo chuỗi con trỏ thẳng hàng theo chiều dọc (để sửa nhiều dòng liên tiếp).
 
+12. Để chọn và sửa ví dụ thêm 1 cụm s+=""; vào đồng thời các dòng thì: đặt con trỏ tại đầu dòng đầu tiên sau đó => Shift + alt + kéo xuống để chọn các dòng cần sửa rồi nhập thêm hoặc có 1 đoạn code, đặt con trỏ cuối dòng 1 chọn shift + > để con trỏ hiện xuống dòng nhấn Ctrl + shift + L rồi nhấn < để chọn tất cả từ cuối;
+
+13. Ctrl + ~: mở terminal
+
 ---
 
 ```text
